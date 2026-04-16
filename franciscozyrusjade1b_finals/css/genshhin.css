@@ -1,0 +1,124 @@
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #020617;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px;
+    }
+
+    nav a {
+      color: #93c5fd;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1400px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #0ea5e9;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: linear-gradient(135deg, #1a1f3a, #0f172a);
+      padding: 16px;
+      border-radius: 12px;
+      transition: 0.3s ease;
+      text-align: center;
+      border: 1px solid rgba(14, 165, 233, 0.2);
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    a.card-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin-top: 10px;
+      color: #fff;
+    }
+
+    .card p {
+      color: #93c5fd;
+      font-size: 0.85rem;
+    }
+
+    /* Element glows */
+    .pyro {
+      box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+    }
+
+    .electro {
+      box-shadow: 0 0 15px rgba(139, 0, 255, 0.3);
+    }
+
+    .hydro {
+      box-shadow: 0 0 15px rgba(14, 165, 233, 0.3);
+    }
+
+    .cryo {
+      box-shadow: 0 0 15px rgba(96, 165, 250, 0.3);
+    }
+
+    .anemo {
+      box-shadow: 0 0 15px rgba(34, 197, 94, 0.3);
+    }
+
+    .geo {
+      box-shadow: 0 0 15px rgba(245, 158, 11, 0.3);
+    }
+
+    .dendro {
+      box-shadow: 0 0 15px rgba(74, 222, 128, 0.3);
+    }
+
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }

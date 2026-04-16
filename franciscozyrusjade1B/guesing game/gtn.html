@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Guessing Game</title>
+        <link rel="stylesheet" href="gts.css">
+        <script src="gtn.js"></script>
+    <body>
+
+<div class="game-container">
+        <h1>Number Quest</h1>
+        <p>Guess a number between 1 and 10</p>
+        
+        <div class="stats-bar">
+            <span>Score: <b id="score">0</b></span>
+            <span>Streak: <b id="streak">0</b></span>
+        </div>
+
+        <button onclick="startGame()" id="startBtn">Start Game</button>
+
+        <input type="number" id="inputNumber" placeholder="?" min="1" max="10" style="display:none;">
+        
+        <div class="button-group" style="display:none;" id="buttonGroup">
+            <button onclick="guess()" id="guessBtn">Guess</button>
+            <button onclick="restartGame()" class="reset-btn">Restart</button>
+        </div>
+
+        <p id="message">Click Start to begin!</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,186 @@
+{
+  "header": {
+    "title": "Genshin Impact",
+    "subtitle": "Explore Teyvat • Meet Characters • Discover Elements"
+  },
+  "nav": [
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Characters",
+      "href": "#characters"
+    },
+    {
+      "label": "Elements",
+      "href": "#elements"
+    },
+    {
+      "label": "Items",
+      "href": "#items"
+    }
+  ],
+  "about": {
+    "heading": "About",
+    "text": "Genshin Impact is an open-world action RPG developed by HoYoverse that takes place in the fantasy world of Teyvat, a land shaped by elemental powers like Anemo, Pyro, Hydro, and Electro. Players explore vast regions, solve puzzles, fight enemies in real-time combat, and follow a story centered on the mysterious journey of the Traveler searching for their lost sibling. One of the game's standout features is its character-switching combat system, where players build teams of unique characters and combine elemental abilities for powerful reactions."
+  },
+  "characters": {
+    "heading": "Popular Characters",
+    "list": [
+      {
+        "href": "aether.html",
+        "img": "../img/aether.png",
+        "name": "Aether",
+        "role": "Main Traveler",
+        "element": ""
+      },
+      {
+        "href": "lumine.html",
+        "img": "../img/lumine.png",
+        "name": "Lumine",
+        "role": "Main Traveler",
+        "element": ""
+      },
+      {
+        "href": "diluc.html",
+        "img": "../img/diluc.png",
+        "name": "Diluc",
+        "role": "Pyro DPS",
+        "element": "pyro"
+      },
+      {
+        "href": "raiden.html",
+        "img": "../img/raiden.png",
+        "name": "Raiden Shogun",
+        "role": "Electro Archon",
+        "element": "electro"
+      },
+      {
+        "href": "klee.html",
+        "img": "../img/klee.png",
+        "name": "Klee",
+        "role": "Pyro DPS",
+        "element": "pyro"
+      },
+      {
+        "href": "zhongli.html",
+        "img": "../img/zhongli.png",
+        "name": "Zhongli",
+        "role": "Geo Support",
+        "element": "geo"
+      },
+      {
+        "href": "hutao.html",
+        "img": "../img/hutao.png",
+        "name": "Hu Tao",
+        "role": "Pyro DPS",
+        "element": "pyro"
+      },
+      {
+        "href": "noelle.html",
+        "img": "../img/noelle.png",
+        "name": "Noelle",
+        "role": "Geo Tank",
+        "element": "geo"
+      },
+      {
+        "href": "jean.html",
+        "img": "../img/jean.png",
+        "name": "Jean",
+        "role": "Anemo Healer",
+        "element": "anemo"
+      },
+      {
+        "href": "eula.html",
+        "img": "../img/eula.png",
+        "name": "Eula",
+        "role": "Cryo DPS",
+        "element": "cryo"
+      }
+    ]
+  },
+  "elements": {
+    "heading": "Elements of Teyvat",
+    "list": [
+      {
+        "name": "Pyro",
+        "element": "pyro"
+      },
+      {
+        "name": "Hydro",
+        "element": "hydro"
+      },
+      {
+        "name": "Electro",
+        "element": "electro"
+      },
+      {
+        "name": "Cryo",
+        "element": "cryo"
+      },
+      {
+        "name": "Anemo",
+        "element": "anemo"
+      },
+      {
+        "name": "Geo",
+        "element": "geo"
+      },
+      {
+        "name": "Dendro",
+        "element": "dendro"
+      }
+    ]
+  },
+  "items": {
+    "heading": "Items & Equipment",
+    "categories": [
+      {
+        "name": "Weapons",
+        "list": [
+          "Wolf's Gravestone",
+          "Skyward Blade",
+          "Primordial Jade Cutter",
+          "Lost Prayer to the Sacred Winds"
+        ]
+      },
+      {
+        "name": "Artifacts",
+        "list": [
+          "Noblesse Oblige",
+          "Gladiator's Finale",
+          "Wanderer's Troupe",
+          "Viridescent Venerer"
+        ]
+      },
+      {
+        "name": "Ascension Materials",
+        "list": [
+          "Pyro/Hydro/Electro Gems",
+          "Common & Boss Materials",
+          "Talent Books"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "text": "2026 by: Zyrus Jade M. Francisco"
+  },
+  "auth": {
+    "users": [
+      {
+        "username": "admin",
+        "password": "genshin123"
+      },
+      {
+        "username": "zyrus",
+        "password": "teyvat2026"
+      },
+      {
+        "username": "guest",
+        "password": "guest"
+      }
+    ]
+  }
+}

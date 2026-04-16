@@ -1,0 +1,47 @@
+{
+  "header": {
+    "title": "Genshin Impact",
+    "subtitle": "Welcome back, Traveler"
+  },
+  "form": {
+    "action": "html/genshhin.html",
+    "method": "get",
+    "fields": [
+      {
+        "label": "Email or Username",
+        "type": "text",
+        "id": "email",
+        "name": "email",
+        "placeholder": "Enter your email or username"
+      },
+      {
+        "label": "Password",
+        "type": "password",
+        "id": "password",
+        "name": "password",
+        "placeholder": "Enter your password"
+      }
+    ],
+    "remember": {
+      "id": "remember",
+      "label": "Remember me"
+    },
+    "forgotPassword": {
+      "href": "#",
+      "label": "Forgot password?"
+    },
+    "submitBtn": "Login"
+  },
+  "divider": "or",
+  "socialButtons": [
+    { "label": "Google" },
+    { "label": "Facebook" },
+    { "label": "Twitter" },
+    { "label": "Email" }
+  ],
+  "signupLink": {
+    "text": "Don't have an account?",
+    "href": "#",
+    "label": "Sign up here"
+  }
+}

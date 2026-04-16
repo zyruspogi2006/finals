@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="rps.css" />
+</head>
+<body>
+
+  <div class="game-wrapper">
+
+    <h1 class="game-title">Rock Paper Scissors</h1>
+    <p class="game-subtitle">Choose your move and beat the computer</p>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-val wins" id="wins">0</div>
+        <div class="stat-lbl">Wins</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val losses" id="losses">0</div>
+        <div class="stat-lbl">Losses</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val draws" id="draws">0</div>
+        <div class="stat-lbl">Draws</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val streak" id="streak">0</div>
+        <div class="stat-lbl">Streak</div>
+      </div>
+    </div>
+
+      <div class="choices-row">
+      <button class="choice-btn" id="btn-Rock" onclick="playRound('Rock')">
+        <img src="rock.jpg" alt="Rock" />
+        <span class="choice-label">Rock</span>
+      </button>
+      <button class="choice-btn" id="btn-Paper" onclick="playRound('Paper')">
+        <img src="paper.jpg" alt="Paper" />
+        <span class="choice-label">Paper</span>
+      </button>
+      <button class="choice-btn" id="btn-Scissors" onclick="playRound('Scissors')">
+        <img src="scissors.jpg" alt="Scissors" />
+        <span class="choice-label">Scissors</span>
+      </button>
+    </div>
+
+  
+    <div class="vs-row">
+      <div class="move-display">
+        <span class="move-lbl">You</span>
+        <img id="player-img" src="" alt="" />
+      </div>
+      <span class="vs-badge">VS</span>
+      <div class="move-display">
+        <span class="move-lbl">Computer</span>
+        <img id="computer-img" src="" alt="" />
+      </div>
+    </div>
+
+    <div class="result-box" id="result-box">
+      <div class="result-title" style="font-size:16px;font-family:'Nunito',sans-serif;font-weight:600;color:rgba(255,255,255,0.5);">Pick a move to begin</div>
+    </div>
+
+    <button class="reset-btn" onclick="resetGame()">Reset Game</button>
+
+  </div>
+
+  <script src="rps.js"></script>
+</body>
+</html>

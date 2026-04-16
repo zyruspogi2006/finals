@@ -1,0 +1,125 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin: 20px;
+      padding: 10px 20px;
+      background: #0ea5e9;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all .3s
+    }
+
+    .back-btn:hover {
+      background: #0284c7;
+      transform: translateY(-2px)
+    }
+
+    header {
+      background: linear-gradient(135deg, #7c2d12, #ea580c);
+      padding: 40px 20px;
+      text-align: center
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px
+    }
+
+    .character-img {
+      max-width: 300px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(234, 88, 12, .3)
+    }
+
+    section {
+      background: #111827;
+      padding: 30px;
+      margin: 20px 0;
+      border-radius: 12px;
+      border-left: 4px solid #ea580c
+    }
+
+    section h2 {
+      color: #ea580c;
+      margin-bottom: 15px;
+      font-size: 1.8rem
+    }
+
+    .weapons-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 15px
+    }
+
+    .weapon {
+      background: #1f2937;
+      padding: 15px;
+      border-radius: 10px;
+      border: 2px solid rgba(234, 88, 12, .3);
+      transition: all .3s
+    }
+
+    .weapon:hover {
+      border-color: #ea580c;
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(234, 88, 12, .2)
+    }
+
+    .weapon h3 {
+      color: #ea580c;
+      margin-bottom: 8px
+    }
+
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: .9rem;
+      color: #94a3b8
+    }
+/* Navbar */
+.char-nav {
+    background: rgba(0,0,0,0.6);
+    padding: 0.6rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(6px);
+}
+.char-nav a {
+    color: #c8a96e;
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+.char-nav a:hover {
+    background: rgba(200,169,110,0.2);
+}

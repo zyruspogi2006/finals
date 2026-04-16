@@ -1,0 +1,25 @@
+
+/* Navbar */
+.char-nav {
+    background: rgba(0,0,0,0.6);
+    padding: 0.6rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(6px);
+}
+.char-nav a {
+    color: #c8a96e;
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+.char-nav a:hover {
+    background: rgba(200,169,110,0.2);
+}
